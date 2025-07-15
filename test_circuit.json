@@ -1,0 +1,18 @@
+{
+  "powerSource": {
+    "x": 50,
+    "y": 199,
+    "z": 0,
+    "finalPower": 10,
+    "powerMask": [false, false, false, false, false, true]
+  },
+  "dustBlocks": [
+    { "x":  50, "y": 199, "z": 1, "power": 15 },
+    { "x":  50, "y": 198, "z": 2, "power": 14 },
+    { "x":  50, "y": 199, "z": 3, "power": 13 },
+    { "x":  50, "y": 199, "z": 4, "power": 12 },
+    { "x":  51, "y": 199, "z": 3, "power": 12 }
+  ],
+  "transparentBlocks": [{ "x":  50, "y": 198, "z": 3, "blockID": "glass" }],
+  "blockingBlocks": []
+}

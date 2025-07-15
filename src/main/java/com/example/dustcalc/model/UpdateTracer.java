@@ -10,7 +10,7 @@ import java.util.*;
  * its new power from all upstream powerTargets, and if it changes,
  * records the update and prompts its updateTargets.
  */
-public class PhaseTracer {
+public class UpdateTracer {
 
     /**
      * Represents a single update from one node to another at a given power.
@@ -24,7 +24,7 @@ public class PhaseTracer {
     private final Map<String, DustBlock> lookup;
     private final int[] initialPowers;
 
-    public PhaseTracer(List<DustBlock> graph) {
+    public UpdateTracer(List<DustBlock> graph) {
         this.lookup = new HashMap<>();
         int[] powers = new int[graph.size()];
         for (int i = 0; i < graph.size(); i++) {
